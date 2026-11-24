@@ -49,7 +49,8 @@ The training notebook reads two dataset archives named `trans_t1_a.zip` and `tra
 
 The notebook uses the `trans_t2_b` sequence for training/validation (72 training pairs and 31 validation pairs) and the `trans_t1_a` sequence for testing (61 pairs).
 
-**Dataset source:** Add the original dataset name and official download/source URL here before publishing. The dataset itself is not included in this repository. Check the dataset's license and terms before redistributing any data or sample frames.
+**Dataset source:** (https://drive.google.com/file/d/1AaMbvQRaKRxyz3jmjda5HtwGQSZi4QOB/view?usp=sharing) trans_t2_b
+(https://drive.google.com/file/d/1CE5KEvw5gq5Qj1u4XYfZLVwtivvfmabs/view?usp=sharing) trans_t1_a
 
 ## Setup
 
@@ -66,8 +67,7 @@ The notebook uses the `trans_t2_b` sequence for training/validation (72 training
    ```text
    checkpoints/best_depth_model.pth
    ```
-
-   The checkpoint is not committed to this repository because it is larger than GitHub's normal 100 MB per-file limit. Add the actual download URL to `checkpoints/README.md` and the section below.
+   https://drive.google.com/drive/folders/1lh57xrUrL4XLgPKLjPLh6kCGqsARdnvE?usp=sharing
 
 ## Run the application
 
@@ -83,8 +83,6 @@ Open the local URL printed by Streamlit, upload a supported endoscopy image, and
 
 **Checkpoint filename:** `best_depth_model.pth`
 
-**Download link:** Add your Google Drive, Hugging Face, or other model-hosting URL here.
-
 After downloading, make sure the file is located at `checkpoints/best_depth_model.pth`. The application expects the checkpoint to contain a `model_state_dict` entry.
 
 ## Notebook
@@ -96,7 +94,3 @@ Some notebook cells use Google Colab and Google Drive paths. Update those paths 
 ## Limitations and intended use
 
 This is an academic image-processing/deep-learning project and a visualization prototype. The generated depth map and AR overlay are model predictions, not verified clinical measurements. This project is not intended for diagnosis, surgical guidance, or other clinical use.
-
-## Acknowledgements
-
-Add the dataset authors/source, relevant papers, and any third-party resources used by the project here.
